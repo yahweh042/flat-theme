@@ -42,6 +42,7 @@
 
 
 
-    "Notification.borderColor": "#3C3F41"
+    "Notification.borderColor": "#3C3F41",
+    "Notification.MoreButton.innerBorderColor": "#3C3F41"
   }
 }
