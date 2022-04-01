@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>org.example.flat-theme</id>
+    <name>Flat Theme</name>
+    <vendor email="yahweh042@163.com" url="https://yahweh042.github.io">Yahweh</vendor>
+
+    <description>
+        <![CDATA[
+            Dark LaF theme based on 'Rider Dark' with more 'flat' design and minimum visible borders
+            <br/><br/>
+            <br/><br/><br/>
+            <img src="https://raw.githubusercontent.com/nerzhulart/DarkFlatTheme/master/screenshots/main_window.png" border="0" width="700" alt="Main window screenshot">
+            <br/>
+            <img src="https://raw.githubusercontent.com/nerzhulart/DarkFlatTheme/master/screenshots/settings.png" border="0" width="700" alt="Settings screenshot">
+        ]]>
+    </description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="54be340b-194a-4d2d-991c-3846b3c2c207" path="/theme/flat.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
