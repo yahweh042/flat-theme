@@ -9,6 +9,8 @@
     "NavBar.borderColor": "#3C3F41",
     "StatusBar.borderColor": "#3C3F41",
 
+    "MenuBar.borderColor": "#3C3F41",
+
     "ScrollBar.background": "#3C3F41",
     "ScrollBar.thumbBorderColor": "#3C3F41",
 
