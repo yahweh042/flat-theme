@@ -3,47 +3,30 @@
   "dark": true,
   "author": "",
   "ui": {
-
     "Window.border": "0,0,0,0,3C3F41",
-
     "NavBar.borderColor": "#3C3F41",
     "StatusBar.borderColor": "#3C3F41",
-
     "MenuBar.borderColor": "#3C3F41",
-
     "ScrollBar.background": "#3C3F41",
     "ScrollBar.thumbBorderColor": "#3C3F41",
-
     "Popup.Toolbar.borderColor": "#3C3F41",
-
     "Separator.separatorColor": "#3C3F41",
-
     "SidePanel.background": "#3C3F41",
-
     "Borders.color": "#3C3F41",
     "Borders.ContrastBorderColor": "#3C3F41",
-
     "Panel.background": "#3C3F41",
-
     "SearchEverywhere.Header.background": "#3C3F41",
-
     "SearchEverywhere.SearchField.background": "#3C3F41",
     "SearchEverywhere.SearchField.borderColor": "#3C3F41",
-
     "Plugins.Tab.selectedBackground": "#3C3F41",
     "Plugins.Tab.selectedForeground": "#3C3F41",
     "Plugins.SearchField.background": "#3C3F41",
     "Plugins.SearchField.borderColor": "#3C3F41",
-
     "EditorTabs.borderColor": "#3C3F41",
     "EditorTabs.underlinedTabBackground": "#3C3F41",
-
     "ToolWindow.Header.borderColor": "#3C3F41",
     "ToolWindow.Header.background": "#3C3F41",
     "ToolWindow.Header.inactiveBackground": "#3C3F41",
-
-
-
     "Notification.borderColor": "#3C3F41",
     "Notification.MoreButton.innerBorderColor": "#3C3F41"
   }
