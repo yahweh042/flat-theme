@@ -3,6 +3,11 @@
   "dark": true,
   "author": "",
   "editorScheme": "/theme/flat-dark.xml",
+  "icons": {
+    "ColorPalette": {
+      "Checkbox.Background.Default.Dark": "#2B2D30"
+    }
+  },
   "ui": {
     "window": "#2B2D30",
     "Window.border": "0,0,0,0,2B2D30",
@@ -12,6 +17,7 @@
     "MenuBar.background": "#2B2D30",
     "MenuBar.borderColor": "#2B2D30",
     "ScrollBar.background": "#2B2D30",
+    "ScrollPane.background": "#2B2D30",
     "ScrollBar.thumbBorderColor": "#2B2D30",
     "Popup.Toolbar.borderColor": "#2B2D30",
     "Separator.separatorColor": "#2B2D30",
@@ -33,10 +39,13 @@
     "EditorTabs.background": "#2B2D30",
     "Popup.Header.activeBackground": "#2B2D30",
     "Popup.Header.inactiveBackground": "#2B2D30",
+    "ToolBar.background": "#2B2D30",
+    "Popup.Toolbar.background": "#2B2D30",
     "ToolWindow.Header.borderColor": "#2B2D30",
     "ToolWindow.Header.background": "#2B2D30",
     "ToolWindow.Header.inactiveBackground": "#2B2D30",
     "CheckBox.background": "#2B2D30",
+    "CheckBox.selectedBackground": "#2B2D30",
     "Button.background": "#2B2D30",
     "Button.startBackground": "#2B2D30",
     "Button.default.startBackground": "#2B2D30",
@@ -58,6 +67,7 @@
     "Label.background": "#2B2D30",
     "TabbedPane.background": "#2B2D30",
     "Notification.background": "#2B2D30",
+    "Notification.borderColor": "#2B2D30",
     "Notification.MoreButton.innerBorderColor": "#2B2D30",
     "ComboBoxButton.background": "#2B2D30",
     "ComboBox.nonEditableBackground": "#2B2D30",
