@@ -5,96 +5,92 @@
   "editorScheme": "/theme/flat-dark.xml",
   "icons": {
     "ColorPalette": {
-      "Checkbox.Background.Default.Dark": "#2B2D30"
+      "Checkbox.Background.Default": "#2B2D30",
+      "Checkbox.Background.Default.Dark": "#2B2D30",
+      "Checkbox.Background.Disabled": "#2B2D30",
+      "Checkbox.Background.Disabled.Dark": "#2B2D30",
+      "Checkbox.Border.Default": "#3C3F41",
+      "Checkbox.Border.Default.Dark": "#3C3F41",
+      "Checkbox.Border.Disabled": "#3C3F41",
+      "Checkbox.Border.Disabled.Dark": "#3C3F41"
     }
   },
   "ui": {
+    "*": {
+      "background": "#2B2D30",
+      "borderColor": "#2B2D30",
+      "activeBackground": "#2B2D30",
+      "inactiveBackground": "#2B2D30",
+      "separatorColor": "#3C3F41",
+      "lineSeparatorColor": "#3C3F41",
+      "hoverBorderColor": "#3C3F41",
+      "hoverBackground": "#3C3F41",
+      "selectedBackground": "#3C3F41",
+      "pressedBorderColor": "#3C3F41",
+      "pressedBackground": "#3C3F41"
+    },
     "window": "#2B2D30",
-    "Window.border": "0,0,0,0,2B2D30",
-    "NavBar.borderColor": "#2B2D30",
-    "StatusBar.borderColor": "#2B2D30",
-    "StatusBar.background": "#2B2D30",
-    "MenuBar.background": "#2B2D30",
-    "MenuBar.borderColor": "#2B2D30",
-    "ScrollBar.background": "#2B2D30",
-    "ScrollPane.background": "#2B2D30",
-    "ScrollBar.thumbBorderColor": "#2B2D30",
-    "Popup.Toolbar.borderColor": "#2B2D30",
-    "Separator.separatorColor": "#2B2D30",
-    "SidePanel.background": "#2B2D30",
-    "Borders.color": "#2B2D30",
-    "Borders.ContrastBorderColor": "#2B2D30",
-    "SearchEverywhere.Header.background": "#2B2D30",
-    "SearchEverywhere.Advertiser.background": "#2B2D30",
-    "SearchEverywhere.SearchField.background": "#2B2D30",
-    "SearchEverywhere.SearchField.borderColor": "#2B2D30",
-    "Plugins.Tab.selectedBackground": "#2B2D30",
-    "Plugins.Tab.selectedForeground": "#2B2D30",
-    "Plugins.SearchField.background": "#2B2D30",
-    "Plugins.SearchField.borderColor": "#2B2D30",
-    "Plugins.background": "#2B2D30",
-    "Plugins.Button.installBackground": "#2B2D30",
-    "EditorTabs.borderColor": "#2B2D30",
-    "EditorTabs.underlinedTabBackground": "#2B2D30",
-    "EditorTabs.background": "#2B2D30",
-    "Popup.Header.activeBackground": "#2B2D30",
-    "Popup.Header.inactiveBackground": "#2B2D30",
-    "ToolBar.background": "#2B2D30",
-    "Popup.Toolbar.background": "#2B2D30",
-    "ToolWindow.Header.borderColor": "#2B2D30",
-    "ToolWindow.Header.background": "#2B2D30",
-    "ToolWindow.Header.inactiveBackground": "#2B2D30",
-    "CheckBox.background": "#2B2D30",
-    "CheckBox.selectedBackground": "#2B2D30",
-    "Button.background": "#2B2D30",
-    "Button.startBackground": "#2B2D30",
-    "Button.default.startBackground": "#2B2D30",
-    "Button.endBackground": "#2B2D30",
-    "Button.default.endBackground": "#2B2D30",
-    "List.background": "#2B2D30",
-    "Tree.background": "#2B2D30",
-    "ComboBox.background": "#2B2D30",
-    "ComboBox.disabledBackground": "#2B2D30",
-    "PopupMenu.background": "#2B2D30",
-    "MenuItem.background": "#2B2D30",
-    "Menu.background": "#2b2d30",
-    "RadioButtonMenuItem.background": "#2B2D30",
-    "SplitPane.background": "#2B2D30",
-    "CheckBoxMenuItem.background": "#2B2D30",
-    "RadioButton.background": "#2B2D30",
-    "NewClass.Panel.background": "#2B2D30",
-    "NewClass.SearchField.background": "#2B2D30",
-    "Label.background": "#2B2D30",
-    "TabbedPane.background": "#2B2D30",
-    "Notification.background": "#2B2D30",
-    "Notification.borderColor": "#2B2D30",
-    "Notification.MoreButton.innerBorderColor": "#2B2D30",
-    "ComboBoxButton.background": "#2B2D30",
-    "ComboBox.nonEditableBackground": "#2B2D30",
-    "ComboBox.ArrowButton.background": "#2B2D30",
-    "ComboBox.ArrowButton.nonEditableBackground": "#2B2D30",
-    "Editor.SearchField.background": "#2B2D30",
-    "TextField.background": "#2B2D30",
-    "TextArea.background": "#2B2D30",
-    "CheckBox.select": "#2B2D30",
-    "Table.background": "#2B2D30",
-    "TableHeader.background": "#2B2D30",
-    "Popup.background": "#2B2D30",
-    "Panel.background": "#2B2D30",
-    "ToolWindow.background": "#2B2D30",
-    "Editor.background": "#2B2D30",
-    "WelcomeScreen.Projects.background": "#2B2D30",
-    "WelcomeScreen.SidePanel.background": "#2B2D30",
-    "WelcomeScreen.SidePanel.borderColor": "#2B2D30",
-    "WelcomeScreen.Details.background": "#2B2D30",
-    "WelcomeScreen.footerBackground": "#2B2D30",
-    "WelcomeScreen.footerBorderColor": "#2B2D30",
-    "WelcomeScreen.separatorColor": "#2B2D30",
-    "WelcomeScreen.background": "#2B2D30",
-    "WelcomeScreen.NewProject.background": "#2B2D30",
-    "WelcomeScreen.headerBackground": "#2B2D30",
-    "WelcomeScreen.headerBorderColor": "#2B2D30",
-    "EditorPane.background": "#2B2D30",
-    "EditorPane.borderColor": "#2B2D30"
+    "windowBorder": "#2B2D30",
+    "Window": {
+      "border": "0,0,0,0,2B2D30"
+    },
+    "Borders": {
+      "color": "#2B2D30",
+      "ContrastBorderColor": "#2B2D30"
+    },
+    "Separator": {
+      "separatorColor": "#2B2D30"
+    },
+    "ComboBox": {
+      "disabledBackground": "#2B2D30",
+      "nonEditableBackground": "#2B2D30",
+      "ArrowButton": {
+        "disabledIconColor": "#3C3F41",
+        "iconColor": "#3C3F41",
+        "nonEditableBackground": "#2B2D30"
+      }
+    },
+    "Button": {
+      "default": {
+        "startBackground": "#3C3F41",
+        "endBackground": "#3C3F41",
+        "startBorderColor": "#3C3F41",
+        "endBorderColor": "#3C3F41"
+      },
+      "arc": 0,
+      "startBackground": "#3C3F41",
+      "endBackground": "#3C3F41",
+      "startBorderColor": "#3C3F41",
+      "endBorderColor": "#3C3F41",
+      "disabledBorderColor": "#3C3F41",
+      "shadowWidth": 0
+    },
+    "Component": {
+      "arc": 0,
+      "borderColor": "#3C3F41",
+      "hoverIconColor": "#3C3F41",
+      "iconColor": "#3C3F41",
+      "disabledBorderColor": "#3C3F41"
+    },
+    "SearchEverywhere": {
+      "Tab": {
+        "selectedBackground": "#3C3F41"
+      }
+    },
+    "Plugins": {
+      "lightSelectionBackground": "#3C3F41"
+    },
+    "Table": {
+      "dropLineColor": "#3C3F41",
+      "dropLineShortColor": "#3C3F41",
+      "stripeColor": "#3C3F41",
+      "gridColor": "#3C3F41"
+    },
+    "WelcomeScreen": {
+      "separatorColor": "#2B2D30"
+    },
+    "EditorTabs": {
+      "underlinedTabBackground": "#2B2D30"
+    }
   }
 }
