@@ -28,8 +28,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <themeProvider id="443a7014-9572-4fbc-958f-2a10fd34ea1d" path="/theme/flat.theme.json"/>
-        <themeProvider id="116f17e7-2273-4ee2-bc96-9a2ff02e9479" path="/theme/flat-dark.theme.json"/>
+        <themeProvider id="flat" path="/theme/flat.theme.json"/>
+        <themeProvider id="flat-dark" path="/theme/flat-dark.theme.json"/>
     </extensions>
 
     <actions>
@@ -37,6 +37,6 @@
     </actions>
 
     <applicationListeners>
-        <listener class="org.example.theme.ThemeManager" topic="com.intellij.ide.AppLifecycleListener"/>
+        <!-- Add your application listeners here -->
     </applicationListeners>
 </idea-plugin>

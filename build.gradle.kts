@@ -1,6 +1,6 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.5.2"
-    kotlin("jvm") version "1.6.10"
+    id("org.jetbrains.intellij") version "1.6.0"
+    kotlin("jvm") version "1.7.0"
 }
 
 group = "org.yahweh042"
@@ -22,6 +22,7 @@ intellij {
 }
 tasks {
     patchPluginXml {
+        sinceBuild.set("211")
         changeNotes.set("""
             2022-04-01:
             <br/>
